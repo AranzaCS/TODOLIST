@@ -83,7 +83,7 @@ function agregar(){
         'estatus':'pendiente'
     };
 
-    elemento = "<div class ='tarea' id='" + elementosGuardados + " ' onclick='cambiarEstado(this.id)'>" +
+    elemento = "<div class ='tarea' id='" + elementosGuardados + "' onclick='cambiarEstado(this.id)'>" +
                     "<div class ='check'></div>" +
                     "<p>" + jsonTarea.valor + "</p>" +
                 "</div>";
@@ -109,7 +109,7 @@ function loadTareas() {
 
     //cargar las tareas del LS
     for(i=0; i<tareas.length; i++) {
-        elemento = "<div class ='tarea' id='" + i + " ' onclick='cambiarEstado(this.id)'>" +
+        elemento = "<div class ='tarea' id='" + i + "' onclick='cambiarEstado(this.id)'>" +
                         "<div class ='check'></div>" +
                         "<p>" + tareas[i].valor + "</p>" +
                     "</div>";
