@@ -3,7 +3,7 @@
   "short_name": "TODOLIST",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#ff88ff",
+  "background_color": "#ffffff",
   "lang": "es",
   "scope": "/",
   "description": "",
